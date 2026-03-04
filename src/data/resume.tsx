@@ -70,7 +70,7 @@ export const DATA = {
       badges: [],
       location: "Malaga, Spain",
       title: "Security Analyst",
-      logoUrl: "sectoralarm-logo.png",
+      logoUrl: "SectorAlarm-logo.png",
       start: "May 2024",
       end: "July 2024",
       description: "",
