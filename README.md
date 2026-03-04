@@ -1,6 +1,6 @@
 <div align="center">
    <h1>Portfolio</h1>
-<img alt="Portfolio" src="https://github.com/n3brrr/portfolio/preview/Preview.png" width="90%">
+<img alt="Portfolio" src="preview/Preview.png" width="90%">
 </div>
 
 # [See the live demo](https://rubentorres.vercel.app)
