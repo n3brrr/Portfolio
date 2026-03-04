@@ -1,8 +1,9 @@
 <div align="center">
+   <h1>Portfolio</h1>
 <img alt="Portfolio" src="https://github.com/n3brrr/portfolio/preview/Preview.png" width="90%">
 </div>
 
-# Portfolio [See the live demo](https://rubentorres.vercel.app)
+# [See the live demo](https://rubentorres.vercel.app)
 
 # Features
 
