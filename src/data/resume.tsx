@@ -1,6 +1,6 @@
 import React from "react";
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Typescript } from "@/components/ui/svgs/typescript";
@@ -144,7 +144,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-CineMaster.png",
+      image: "Preview-Cinemaster.png",
       video: "",
     },
     {
@@ -189,7 +189,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-BarberShop-web.png",
+      image: "Preview-Barbershop-web.png",
       video: "",
     },
   ],
