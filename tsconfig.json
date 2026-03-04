@@ -23,7 +23,8 @@
     ],
     "paths": {
       "@/*": [
-        "./src/*"
+        "./src/*",
+        "./components/ui/svgs/*"
       ],
       "content-collections": [
         "./.content-collections/generated"

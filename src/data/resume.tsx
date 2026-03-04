@@ -9,7 +9,8 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
 import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
-//import { Tailwind } from "@/components/ui/svgs/tailwind";
+import { Tailwind } from "@/components/ui/svgs/tailwind";
+import { Git } from "@/components/ui/svgs/git";
 
 export const DATA = {
   name: "Ruben Torres",
@@ -26,9 +27,10 @@ export const DATA = {
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
     { name: "Typescript", icon: Typescript },
-    //{ name: "Tailwind", icon: Tailwind },
+    { name: "Tailwind", icon: Tailwind },
     { name: "Node.js", icon: Nodejs },
     { name: "Postgres", icon: Postgresql },
+    { name: "Git", icon: Git },
     { name: "Docker", icon: Docker },
     { name: "Java", icon: Java },
     { name: "C++", icon: Csharp },
@@ -67,8 +69,8 @@ export const DATA = {
       href: "https://sectoralarm.es/",
       badges: [],
       location: "Malaga, Spain",
-      title: "FullStack Developer",
-      logoUrl: "sectoralarm.png",
+      title: "Security Analyst",
+      logoUrl: "sectoralarm-logo.png",
       start: "May 2024",
       end: "July 2024",
       description: "",
@@ -78,7 +80,7 @@ export const DATA = {
     {
       school: "Cesur",
       href: "https://cesur.com",
-      degree: "FP Superior en Desarrollo de Aplicaciones Web",
+      degree: "Higher Degree in Web Application Development",
       logoUrl: "cesur-logo.jpeg",
       start: "2023",
       end: "2025",
@@ -86,8 +88,8 @@ export const DATA = {
     {
       school: "Medac",
       href: "https://medac.es",
-      degree: "FP Media en Sistemas Microinformáticos y Redes",
-      logoUrl: "medac.png",
+      degree: "Vocational Degree in Computer Systems and Networks",
+      logoUrl: "medac-logo.png",
       start: "2022",
       end: "2024",
     },
@@ -98,7 +100,6 @@ export const DATA = {
       href: "https://ritualkiller.vercel.app/",
       dates: "2025 - 2026",
       active: true,
-      // es un proyecto de habitos gamificados
       description:
         "RitualKiller is a gamified habit tracker that helps you build healthy habits through streaks, rewards, and challenges.",
       technologies: [
@@ -121,11 +122,11 @@ export const DATA = {
         },
       ],
       image: "Preview-RitualKiller.png",
-      video: "", //añadir video de la app o fotos
+      video: "",
     },
     {
       title: "CineMaster",
-      href: "https://github.com/n3brrr/CineMaster",
+      href: "https://cinemasters.vercel.app/",
       dates: "June 2023 - Present",
       active: true,
       description:
@@ -144,11 +145,11 @@ export const DATA = {
         },
       ],
       image: "Preview-CineMaster.png",
-      video: "", //añadir video de la app o fotos
+      video: "",
     },
     {
       title: "GitHub Hunter",
-      href: "https://github.com/n3brrr/GitHub-Hunter",
+      href: "https://git-hub-hunter.vercel.app/",
       dates: "2025 - 2026",
       active: true,
       description:
@@ -162,12 +163,12 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://git-hub-hunter.vercel.app/",
+          href: "https://github.com/n3brrr/GitHub-Hunter",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "Preview-GithubHunter.png",
-      video: "", //añadir video de la app o fotos
+      video: "",
     },
     {
       title: "BarberShop Web",
@@ -189,17 +190,17 @@ export const DATA = {
         },
       ],
       image: "Preview-BarberShop-web.png",
-      video: "", //añadir video de la app o fotos
+      video: "",
     },
   ],
   hackathons: [
     {
-      title: "Hackathon 2026",
+      title: "Solidare Hackathon 2026",
       dates: "2026 - 2026",
       location: "Malaga, Spain",
       description:
-        "Developed a web application which helped people to find the protectoras of animals in Spain.",
-      image: "",
+        "Developed a web application which helped people to find shelters of animals in Spain.",
+      image: "Hackaton1-organizator.png",
       links: [] as readonly {
         title: string;
         href: string;
