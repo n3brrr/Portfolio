@@ -11,6 +11,10 @@ import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
 import { Tailwind } from "@/components/ui/svgs/tailwind";
 import { Git } from "@/components/ui/svgs/git";
+import { Astro } from "@/components/ui/svgs/astro";
+import { MySQL } from "@/components/ui/svgs/mysql";
+import { MongoDB } from "@/components/ui/svgs/mongodb";
+import { Vite } from "@/components/ui/svgs/vite";
 
 export const DATA = {
   name: "Ruben Torres",
@@ -29,11 +33,15 @@ export const DATA = {
     { name: "Typescript", icon: Typescript },
     { name: "Tailwind", icon: Tailwind },
     { name: "Node.js", icon: Nodejs },
+    { name: "Astro", icon: Astro },
     { name: "Postgres", icon: Postgresql },
     { name: "Git", icon: Git },
+    { name: "MySQL", icon: MySQL },
+    { name: "MongoDB", icon: MongoDB },
     { name: "Docker", icon: Docker },
     { name: "Java", icon: Java },
     { name: "C++", icon: Csharp },
+    { name: "Vite", icon: Vite },
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
@@ -79,7 +87,7 @@ export const DATA = {
   education: [
     {
       school: "Cesur",
-      href: "https://cesur.com",
+      href: "https://cesurformacion.com/",
       degree: "Higher Degree in Web Application Development",
       logoUrl: "cesur-logo.jpeg",
       start: "2023",
