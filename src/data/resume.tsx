@@ -80,8 +80,9 @@ export const DATA = {
       title: "Security Analyst",
       logoUrl: "SectorAlarm-logo.png",
       start: "May 2024",
-      end: "July 2024",
-      description: "",
+      end: "October 2024",
+      description:
+        "I use to monitorize and analyze security events and incidents.",
     },
   ],
   education: [
@@ -90,8 +91,8 @@ export const DATA = {
       href: "https://cesurformacion.com/",
       degree: "Higher Degree in Web Application Development",
       logoUrl: "cesur-logo.jpeg",
-      start: "2023",
-      end: "2025",
+      start: "2024",
+      end: "2026",
     },
     {
       school: "Medac",
@@ -204,7 +205,7 @@ export const DATA = {
   hackathons: [
     {
       title: "Solidare Hackathon 2026",
-      dates: "2026 - 2026",
+      dates: "2026",
       location: "Malaga, Spain",
       description:
         "Developed a web application which helped people to find shelters of animals in Spain.",
