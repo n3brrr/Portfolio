@@ -26,14 +26,13 @@ export default function ContactSection() {
         <p className="mx-auto max-w-lg text-muted-foreground text-balance">
           Want to chat? Just{" "}
           <Link
-            href={DATA.contact.email}
+            href={`mailto:${DATA.contact.email}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
             send me a email
-          </Link>{" "}
-          and I&apos;ll respond when I can.
+          </Link>
         </p>
       </div>
     </div>

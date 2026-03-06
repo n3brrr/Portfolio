@@ -19,7 +19,7 @@ import { Vite } from "@/components/ui/svgs/vite";
 export const DATA = {
   name: "Ruben Torres",
   initials: "RT",
-  url: "https://rubentorres.dev",
+  url: "https://rubentorres.vercel.app",
   location: "Malaga, Spain",
   locationLink: "https://www.google.com/maps/place/Malaga",
   description:
