@@ -78,7 +78,7 @@ export const DATA = {
       badges: [],
       location: "Malaga, Spain",
       title: "Security Analyst",
-      logoUrl: "SectorAlarm-logo.png",
+      logoUrl: "SectorAlarm-logo.webp",
       start: "May 2024",
       end: "October 2024",
       description:
@@ -90,7 +90,7 @@ export const DATA = {
       school: "Cesur",
       href: "https://cesurformacion.com/",
       degree: "Higher Degree in Web Application Development",
-      logoUrl: "cesur-logo.jpeg",
+      logoUrl: "cesur-logo.webp",
       start: "2024",
       end: "2026",
     },
@@ -98,7 +98,7 @@ export const DATA = {
       school: "Medac",
       href: "https://medac.es",
       degree: "Vocational Degree in Computer Systems and Networks",
-      logoUrl: "medac-logo.png",
+      logoUrl: "medac-logo.webp",
       start: "2022",
       end: "2024",
     },
@@ -130,7 +130,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-RitualKiller.png",
+      image: "Preview-RitualKiller.webp",
       video: "",
     },
     {
@@ -153,30 +153,30 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-Cinemaster.png",
+      image: "Preview-Cinemaster.webp",
       video: "",
     },
     {
-      title: "GitHub Hunter",
-      href: "https://git-hub-hunter.vercel.app/",
+      title: "Terral Studio",
+      href: "https://terral-studio-ruben.vercel.app/",
       dates: "2025 - 2026",
       active: true,
       description:
-        "GitHub Hunter is a app that helps you find the best github repositories.",
-      technologies: ["Vite.js", "Typescript", "React", "TailwindCSS"],
+        "Terral Studio is a web from a ficticious architecture studio based in Malaga, Spain.",
+      technologies: ["Astro", "Typescript", "React", "TailwindCSS"],
       links: [
         {
           type: "Website",
-          href: "https://git-hub-hunter.vercel.app/",
+          href: "https://terral-studio-ruben.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/n3brrr/GitHub-Hunter",
+          href: "https://github.com/n3brrr/terral-studio-ruben",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-GithubHunter.png",
+      image: "Preview-TerralStudio.webp",
       video: "",
     },
     {
@@ -198,7 +198,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-Barbershop-web.png",
+      image: "Preview-Barbershop-web.webp",
       video: "",
     },
   ],
@@ -209,7 +209,7 @@ export const DATA = {
       location: "Malaga, Spain",
       description:
         "Developed a web application which helped people to find shelters of animals in Spain.",
-      image: "Hackaton1-organizator.png",
+      image: "Hackaton1-organizator.webp",
       links: [] as readonly {
         title: string;
         href: string;
