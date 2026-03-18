@@ -26,7 +26,7 @@ export const DATA = {
     "FullStack Developer, passionate about building cool stuff and helping people.",
   summary:
     "I am a FullStack Developer with experience in building web applications. I am passionate about learning new technologies and building cool stuff. I am also a very active person and enjoy playing sports.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
