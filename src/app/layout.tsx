@@ -7,6 +7,22 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
+import Lenis from "lenis";
+
+const lenis = new Lenis({
+  duration: 1.2,
+  smooth: true,
+  smoothTouch: false,
+  touchMultiplier: 2,
+  infinite: false,
+});
+
+function raf(time: number) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
 
 const geist = Geist({
   subsets: ["latin"],
@@ -67,7 +83,7 @@ export default function RootLayout({
         className={cn(
           "min-h-screen bg-background font-sans antialiased relative",
           geist.variable,
-          geistMono.variable
+          geistMono.variable,
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
@@ -79,7 +95,8 @@ export default function RootLayout({
                 gridGap={2}
                 style={{
                   maskImage: "linear-gradient(to bottom, black, transparent)",
-                  WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
+                  WebkitMaskImage:
+                    "linear-gradient(to bottom, black, transparent)",
                 }}
               />
             </div>
