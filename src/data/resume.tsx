@@ -136,7 +136,7 @@ export const DATA = {
     {
       title: "CineMaster",
       href: "https://cinemasters.vercel.app/",
-      dates: "June 2023 - Present",
+      dates: "June 2025",
       active: true,
       description:
         "CineMaster is a movie app that helps you find movies to watch.",
@@ -158,8 +158,8 @@ export const DATA = {
     },
     {
       title: "Terral Studio",
-      href: "https://terral-studio-ruben.vercel.app/",
-      dates: "2025 - 2026",
+      href: "https://terral-studio.vercel.app/",
+      dates: "2026",
       active: true,
       description:
         "Terral Studio is a web from a ficticious architecture studio based in Malaga, Spain.",
@@ -167,12 +167,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://terral-studio-ruben.vercel.app/",
+          href: "https://terral-studio.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/n3brrr/terral-studio-ruben",
+          href: "https://github.com/n3brrr/terral-studio",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -182,14 +182,14 @@ export const DATA = {
     {
       title: "BarberShop Web",
       href: "https://web-barbershop-five.vercel.app/",
-      dates: "2025 - 2025",
+      dates: "2025",
       active: true,
       description: "BarberShop Web is a barber shop website.",
       technologies: ["Astro", "JavaScript", "TailwindCSS"],
       links: [
         {
           type: "Website",
-          href: "https://web-barbershop-five.vercel.app//",
+          href: "https://web-barbershop-five.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
