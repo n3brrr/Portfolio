@@ -105,32 +105,33 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "RitualKiller",
-      href: "https://ritualkiller.vercel.app/",
-      dates: "2025 - 2026",
+      title: "Aura Store",
+      href: "https://aurastore-one.vercel.app/",
+      dates: "2026",
       active: true,
       description:
-        "RitualKiller is a gamified habit tracker that helps you build healthy habits through streaks, rewards, and challenges.",
+        "Aura Store is an e-commerce website for a fictional brand that sells spiritual products.",
       technologies: [
         "Vite.js",
         "Typescript",
         "React",
         "Supabase",
+        "GSAP",
         "TailwindCSS",
       ],
       links: [
         {
           type: "Website",
-          href: "https://ritualkiller.vercel.app/",
+          href: "https://aurastore-one.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/n3brrr/ritualkiller",
+          href: "https://github.com/n3brrr/AuraStore",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-RitualKiller.webp",
+      image: "Preview-AuraStore.webp",
       video: "",
     },
     {
@@ -180,25 +181,32 @@ export const DATA = {
       video: "",
     },
     {
-      title: "BarberShop Web",
-      href: "https://web-barbershop-five.vercel.app/",
+      title: "RitualKiller",
+      href: "https://ritualkiller.vercel.app/",
       dates: "2025",
       active: true,
-      description: "BarberShop Web is a barber shop website.",
-      technologies: ["Astro", "JavaScript", "TailwindCSS"],
+      description:
+        "RitualKiller is a gamified habit tracker that helps you build healthy habits through streaks, rewards, and challenges.",
+      technologies: [
+        "Vite.js",
+        "Typescript",
+        "React",
+        "Supabase",
+        "TailwindCSS",
+      ],
       links: [
         {
           type: "Website",
-          href: "https://web-barbershop-five.vercel.app/",
+          href: "https://ritualkiller.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/n3brrr/web-barbershop",
+          href: "https://github.com/n3brrr/RitualKiller",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "Preview-Barbershop-web.webp",
+      image: "Preview-RitualKiller.webp",
       video: "",
     },
   ],
