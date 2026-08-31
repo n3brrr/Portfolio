@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/i18n/provider";
 import { cn } from "@/lib/utils";
-import { Languages } from "lucide-react";
 
 export function LanguageToggle({ className }: { className?: string }) {
   const { locale, toggleLocale } = useI18n();
@@ -22,10 +21,8 @@ export function LanguageToggle({ className }: { className?: string }) {
       aria-label={locale === "en" ? "Switch to Spanish" : "Cambiar a inglés"}
       title={locale === "en" ? "Switch to Spanish" : "Cambiar a inglés"}
     >
-      <span className="flex items-center justify-center gap-[2px] font-semibold tracking-tighter text-[11px] leading-none select-none">
-        {/* Small languages icon + current locale */}
-        <Languages className="size-3.5 shrink-0 opacity-70" aria-hidden />
-        <span className="text-[10px] font-bold">{locale.toUpperCase()}</span>
+      <span className="flex items-center justify-center font-bold tracking-widest text-[11px] leading-none select-none">
+        {locale.toUpperCase()}
       </span>
     </Button>
   );
