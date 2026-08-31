@@ -16,7 +16,7 @@ import { MySQL } from "@/components/ui/svgs/mysql";
 import { MongoDB } from "@/components/ui/svgs/mongodb";
 import { Vite } from "@/components/ui/svgs/vite";
 
-export const DATA = {
+export const DATA_EN = {
   name: "Ruben Torres",
   initials: "RT",
   url: "https://rubentorres.vercel.app",
@@ -226,3 +226,225 @@ export const DATA = {
     },
   ],
 } as const;
+
+export const DATA_ES = {
+  name: "Ruben Torres",
+  initials: "RT",
+  url: "https://rubentorres.vercel.app",
+  location: "Málaga, España",
+  locationLink: "https://www.google.com/maps/place/Malaga",
+  description:
+    "Desarrollador FullStack, apasionado por crear cosas geniales y ayudar a la gente.",
+  summary:
+    "Soy Desarrollador FullStack con experiencia en la creación de aplicaciones web. Me apasiona aprender nuevas tecnologías y crear cosas increíbles. También soy una persona muy activa y disfruto haciendo deporte.",
+  avatarUrl: "/me.webp",
+  skills: [
+    { name: "React", icon: ReactLight },
+    { name: "Next.js", icon: NextjsIconDark },
+    { name: "Typescript", icon: Typescript },
+    { name: "Tailwind", icon: Tailwind },
+    { name: "Node.js", icon: Nodejs },
+    { name: "Astro", icon: Astro },
+    { name: "Postgres", icon: Postgresql },
+    { name: "Git", icon: Git },
+    { name: "MySQL", icon: MySQL },
+    { name: "MongoDB", icon: MongoDB },
+    { name: "Docker", icon: Docker },
+    { name: "Java", icon: Java },
+    { name: "C++", icon: Csharp },
+    { name: "Vite", icon: Vite },
+  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Inicio" }],
+  contact: {
+    email: "rubentorresdev@gmail.com",
+    tel: "+671269932",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/n3brrr",
+        icon: Icons.github,
+        navbar: true,
+      },
+
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/rubentorresdev/",
+        icon: Icons.linkedin,
+
+        navbar: true,
+      },
+      email: {
+        name: "Enviar Email",
+        url: "mailto:[rubentorresdev@gmail.com]",
+        icon: Icons.email,
+        navbar: true,
+      },
+    },
+  },
+
+  work: [
+    {
+      company: "Sector Alarm",
+      href: "https://sectoralarm.es/",
+      badges: [],
+      location: "Málaga, España",
+      title: "Analista de Seguridad",
+      logoUrl: "SectorAlarm-logo.webp",
+      start: "mayo 2024",
+      end: "octubre 2024",
+      description:
+        "Me encargaba de monitorizar y analizar eventos e incidentes de seguridad.",
+    },
+  ],
+  education: [
+    {
+      school: "Cesur",
+      href: "https://cesurformacion.com/",
+      degree: "Grado Superior en Desarrollo de Aplicaciones Web",
+      logoUrl: "cesur-logo.webp",
+      start: "2024",
+      end: "2026",
+    },
+    {
+      school: "Medac",
+      href: "https://medac.es",
+      degree: "Grado Medio en Sistemas Microinformáticos y Redes",
+      logoUrl: "medac-logo.webp",
+      start: "2022",
+      end: "2024",
+    },
+  ],
+  projects: [
+    {
+      title: "Aura Store",
+      href: "https://aurastore-one.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Aura Store es una tienda online de una marca ficticia que vende productos espirituales.",
+      technologies: [
+        "Vite.js",
+        "Typescript",
+        "React",
+        "Supabase",
+        "GSAP",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Sitio Web",
+          href: "https://aurastore-one.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Código",
+          href: "https://github.com/n3brrr/AuraStore",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "Preview-AuraStore.webp",
+      video: "",
+    },
+    {
+      title: "CineMaster",
+      href: "https://cinemasters.vercel.app/",
+      dates: "junio 2025",
+      active: true,
+      description:
+        "CineMaster es una aplicación de películas que te ayuda a encontrar qué ver.",
+      technologies: ["Vite.js", "Typescript", "React", "TailwindCSS"],
+      links: [
+        {
+          type: "Sitio Web",
+          href: "https://cinemasters.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Código",
+          href: "https://github.com/n3brrr/CineMaster",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "Preview-Cinemaster.webp",
+      video: "",
+    },
+    {
+      title: "Terral Studio",
+      href: "https://terral-studio.vercel.app/",
+      dates: "2026",
+      active: true,
+      description:
+        "Terral Studio es la web de un estudio de arquitectura ficticio con sede en Málaga, España.",
+      technologies: ["Astro", "Typescript", "React", "TailwindCSS"],
+      links: [
+        {
+          type: "Sitio Web",
+          href: "https://terral-studio.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Código",
+          href: "https://github.com/n3brrr/terral-studio",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "Preview-TerralStudio.webp",
+      video: "",
+    },
+    {
+      title: "RitualKiller",
+      href: "https://ritualkiller.vercel.app/",
+      dates: "2025",
+      active: true,
+      description:
+        "RitualKiller es un rastreador de hábitos gamificado que te ayuda a crear hábitos saludables mediante rachas, recompensas y desafíos.",
+      technologies: [
+        "Vite.js",
+        "Typescript",
+        "React",
+        "Supabase",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Sitio Web",
+          href: "https://ritualkiller.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Código",
+          href: "https://github.com/n3brrr/RitualKiller",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "Preview-RitualKiller.webp",
+      video: "",
+    },
+  ],
+  hackathons: [
+    {
+      title: "Solidare Hackathon 2026",
+      dates: "2026",
+      location: "Málaga, España",
+      description:
+        "Desarrollamos una aplicación web que ayudaba a la gente a encontrar refugios de animales en España.",
+      image: "Hackaton1-organizator.webp",
+      links: [] as readonly {
+        title: string;
+        href: string;
+        icon: React.ReactNode;
+      }[],
+    },
+  ],
+} as const;
+
+// Backwards compat: default DATA is English
+export const DATA = DATA_EN;
+
+export type Locale = "en" | "es";
+
+export function getResumeData(locale: string) {
+  return locale === "es" ? DATA_ES : DATA_EN;
+}
+
+export type ResumeData = typeof DATA_EN;
