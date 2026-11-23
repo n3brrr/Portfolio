@@ -30,7 +30,6 @@ Portfolio personal, _mobile-first_, para presentar experiencia, proyectos, hacka
 - [Despliegue](#despliegue)
 - [Seguridad](#seguridad)
 - [Estructura del proyecto](#estructura-del-proyecto)
-- [Contribuir](#contribuir)
 - [Licencia](#licencia)
 - [Autor](#autor)
 
