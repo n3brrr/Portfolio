@@ -153,15 +153,6 @@ Portfolio/
 └── next.config.mjs        # Configuración de Next.js y cabeceras HTTP
 ```
 
-## Contribuir
-
-Es un proyecto personal, pero las propuestas son bienvenidas:
-
-1. Crea una rama desde `master` (`feat/...`, `fix/...`, `docs/...`).
-2. Usa [Conventional Commits](https://www.conventionalcommits.org/) con ámbito, por ejemplo `feat(sections): ...`.
-3. Todo texto visible debe tener su traducción en `src/i18n/translations.ts` y en `DATA_ES`/`DATA_EN`.
-4. Ejecuta `pnpm lint` y `pnpm build` antes de abrir una pull request.
-
 ## Licencia
 
 Distribuido bajo la [licencia MIT](./LICENSE).
@@ -169,9 +160,3 @@ Distribuido bajo la [licencia MIT](./LICENSE).
 ## Autor
 
 **Rubén Torres** — [@n3brrr](https://github.com/n3brrr) · [LinkedIn](https://www.linkedin.com/in/rubentorresdev/)
-
-<div align="center">
-
-Si el proyecto te resulta útil, deja una ⭐ en el repositorio.
-
-</div>
