@@ -35,6 +35,8 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const stored = typeof window !== "undefined" ? localStorage.getItem(STORAGE_KEY) : null;
     if (stored && isValidLocale(stored)) {
+      // Intentional: runs once after mount to sync the saved locale (server renders the default).
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLocaleState(stored);
     } else if (typeof navigator !== "undefined") {
       const nav = navigator.language.toLowerCase();
